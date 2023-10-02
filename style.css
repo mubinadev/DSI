@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+/*HEADER*/
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: header 3s infinite;
+}
+@keyframes header{
+    0%{
+        transform: translatex(-200px);
+    }
+}
+.header-nav1 a{
+    text-decoration: none;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 500;
+margin-left: 360px;
+}
+.header-nav2 a{
+    text-decoration: none;
+    color: #7E7F86;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 500;
+margin: 50px;
+}
+.header-nav3 img{
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+  <path d="M3.75 15H26.25" stroke="#25202F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3.75 7.5H26.25" stroke="#25202F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3.75 22.5H26.25" stroke="#25202F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+}
+/* HEADER */
+
+/* HERO */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: hero 3s infinite;
+}
+@keyframes hero{
+    0%{
+        transform: translatex(200px);
+    }
+    50%{
+        transform: translatex(-200px);
+    }
+}
+.hero-title p{
+    margin: 30px;
+    margin-left: 100px;
+    color: #666;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+line-height: 120%; /* 28.8px */
+}
+.hero-title h1{
+    margin-left: 100px;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 60px;
+font-weight: 700;
+line-height: 120%;
+}
+.hero-title button{
+    margin-left: 100px;
+    border-radius: 100px;
+background: #8643DC;
+width: 200px;
+height: 60px;
+flex-shrink: 0;
+}
+/*HERO*/
+
+/* LOVE */
+.love-title p{
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 400;
+}
+.love-title h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.love-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.love-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #47444E;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+.love-title p{
+    margin: 20px;
+}
+.love-title h1{
+    margin: 26px;
+}
+.love-img{
+    margin: 40px;
+}
+/* LOVE */
+
+/* ALL */
+.all-h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-p{
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 400;
+}
